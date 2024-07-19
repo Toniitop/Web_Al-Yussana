@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #4b4b4b; /* Asegúrate de que este color coincida con bg-gray-200 */
+}
