@@ -10,7 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/carousel": "^7.11.2",
+    "@mantine/core": "^7.11.2",
+    "@mantine/hooks": "^7.11.2",
     "emailjs-com": "^3.2.0",
+    "embla-carousel-react": "^8.1.7",
     "flowbite": "^2.4.1",
     "flowbite-react": "^0.10.1",
     "react": "^18.3.1",
@@ -28,6 +32,8 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.39",
+    "postcss-preset-mantine": "^1.17.0",
+    "postcss-simple-vars": "^7.0.1",
     "tailwindcss": "^3.4.4",
     "vite": "^5.3.1"
   }

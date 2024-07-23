@@ -3,5 +3,17 @@
 @tailwind utilities;
 
 body {
-    background-color: #4b4b4b; /* Asegúrate de que este color coincida con bg-gray-200 */
+    background-color: #4b4b4b;
+    /* Asegúrate de que este color coincida con bg-gray-200 */
+}
+/* 
+<uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 
+*/
+
+.jost-<uniquifier> {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
