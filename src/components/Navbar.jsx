@@ -34,6 +34,12 @@ function Header() {
                                 <div className="absolute bottom-[-16px] left-1/2 transform -translate-x-1/2 bg-green-400 h-0.5 w-full opacity-0 transition-opacity ease-in duration-200 group-hover:opacity-100"></div>
                             </Link>
                         </li>
+                        <li className='relative group'>
+                            <Link to="/temporada" className="text-white block py-2 px-3 rounded hover:bg-green-700 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0">
+                                Temp. 23/24
+                                <div className="absolute bottom-[-16px] left-1/2 transform -translate-x-1/2 bg-green-400 h-0.5 w-full opacity-0 transition-opacity ease-in duration-200 group-hover:opacity-100"></div>
+                            </Link>
+                        </li>
                         <li className="relative">
                             <button id="dropdownNavbarLink" className="flex items-center justify-between w-full py-2 px-3 text-white rounded hover:bg-green-700 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0 md:w-auto" onClick={toggleDropdown}>
                                 Club
@@ -45,7 +51,7 @@ function Header() {
                             <div id="dropdownNavbar" className={`z-10 ${isDropdownOpen ? '' : 'hidden'} md:absolute mt-2 bg-green-500 divide-y divide-gray-100 rounded-lg shadow w-44`}>
                                 <ul className="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
                                     <li>
-                                        <a href="#" className="text-white block px-4 py-2 hover:bg-green-400">Desafio 3vs3</a>
+                                        <a href="/desafio" className="text-white block px-4 py-2 hover:bg-green-400">Desafio 3vs3</a>
                                     </li>
                                     <li>
                                         <a href="#" className="text-white block px-4 py-2 hover:bg-green-400">Cuerpo Técnico</a>
@@ -55,12 +61,6 @@ function Header() {
                                     </li>
                                 </ul>
                             </div>
-                        </li>
-                        <li className='relative group'>
-                            <Link to="/" className="text-white block py-2 px-3 rounded hover:bg-green-700 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0">
-                                Temp. 23/24
-                                <div className="absolute bottom-[-16px] left-1/2 transform -translate-x-1/2 bg-green-400 h-0.5 w-full opacity-0 transition-opacity ease-in duration-200 group-hover:opacity-100"></div>
-                            </Link>
                         </li>
                         <li className='relative group'>
                             <Link to="/" className="text-white block py-2 px-3 rounded hover:bg-green-700 md:hover:bg-transparent md:border-0 md:hover:text-green-400 md:p-0">

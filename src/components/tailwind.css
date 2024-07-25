@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .px-20 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .px-40 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .text-xl {
+        font-size: 1rem; /* Ajusta el tamaño del texto en dispositivos móviles */
+    }
+
+    .list-disc {
+        padding-left: 1rem;
+    }
+}
+
+/*Lo de arriba es del c_Temporada*/

@@ -6,12 +6,12 @@ function Cuerpo() {
     const images = [
         {
             src: "/Alvaro.JPG",
-            alt: "Imagen de Álvaro",
+            alt: "Álvaro Hernandez",
             description: "Imagen de Álvaro"
         },
         {
             src: "/ClasificacionNac1.JPG",
-            alt: "Clasificación Nacional",
+            alt: "Clasificación Nacional N1 Masc",
             description: "Clasificación Nacional"
         }
     ];
@@ -49,7 +49,7 @@ function Cuerpo() {
                                     <img
                                         src={image.src}
                                         alt={image.alt}
-                                        className="block mx-auto max-w-full md:max-w-3xl lg:max-w-4xl"
+                                        className="block mx-auto max-w-full md:max-w-3xl lg:max-w-4xl transform scale-125"
                                     />
                                 </div>
                                 <div className="uppercase absolute bottom-0 left-1/2 transform -translate-x-1/2 w-full md:max-w-3xl lg:max-w-4xl bg-gray-800 bg-opacity-50 text-white text-center p-4">
