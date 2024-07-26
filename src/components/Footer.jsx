@@ -3,6 +3,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Zoom } from 'react-toastify';
 import emailjs from 'emailjs-com';
+import { Link } from 'react-router-dom';
 
 function Footer() {
     const [email, setEmail] = useState(''); // para controlar el valor del campo de entrada
@@ -118,24 +119,17 @@ function Footer() {
                                 </p>
                                 <ul className="mt-2 space-y-2">
                                     <li>
-                                        <a
-                                            href="/"
-                                            className="text-gray-500 transition-colors duration-300 hover:text-green-400"
-                                        >
-                                            Trabaja con Nosotros..
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a
-                                            href="https://github.com/Toniitop"
+                                        <Link
+                                            to="/contacto"
                                             className="text-gray-500 transition-colors duration-300 hover:text-green-400"
                                         >
                                             Contacto
-                                        </a>
+                                        </Link>
                                     </li>
                                     <li className="mb-4 sm:mb-0"> {/* Añadido margen en pantallas pequeñas */}
                                         <a
-                                            href="/"
+                                            href="https://github.com/Toniitop"
+                                            target='_blank'
                                             className="text-gray-500 transition-colors duration-300 hover:text-green-400"
                                         >
                                             Proyectos

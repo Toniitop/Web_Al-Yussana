@@ -1,16 +1,16 @@
 import './tailwind.css'
 import Navbar from '../components/Navbar';
-//import Cuerpo from '../components/c_Temporada';
+import Cuerpo from '../components/c_Desafio';
 import Footer from '../components/Footer';
 
-function Temporada () {
+function Desafio () {
     return (
         <>
             <Navbar />
-            {/* <Cuerpo /> */}
+            <Cuerpo />
             <Footer /> 
         </>
     );
 }
 
-export default Temporada;
+export default Desafio;

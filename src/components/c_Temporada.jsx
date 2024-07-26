@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 
 function c_Temporada() {
     return (
-        <div className="space-y-12 p-6 bg-gray-200">
+        <div className="space-y-12 p-6 bg-gray-300">
             {/* Establece el título de la pestaña */}
             <Helmet>
                 <title>CB AlYussana | Temporada</title>
@@ -15,7 +15,7 @@ function c_Temporada() {
             </header>
 
             {/* Sección 2: Párrafo centrado */}
-            <section className="flex items-center justify-center min-h-[200px] px-20">
+            <section className="flex items-center justify-center min-h-[200px] px-20 bg-gray-400 rounded-lg py-8">
                 <p className="text-xl text-green-800 text-center">
                     ¿Te gusta el baloncesto?<br />
                     ¿Quieres entrenar con nosotros y formar parte del Club Baloncesto Al-Yussana?<br />
@@ -101,7 +101,7 @@ function c_Temporada() {
                         <tbody>
                             <tr className="bg-gray-200 border-b">
                                 <td className="p-4">
-                                    <img src="/Dinosaurs.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Dinosaurs" />
+                                    <img src="/categorias/Dinosaurs.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Dinosaurs" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Baby
@@ -119,7 +119,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-300 border-b">
                                 <td className="p-4">
-                                    <img src="/Crocs.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Crocs" />
+                                    <img src="/categorias/Crocs.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Crocs" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Premini
@@ -137,7 +137,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-200 border-b">
                                 <td className="p-4">
-                                    <img src="/Eagles.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Eagles" />
+                                    <img src="/categorias/Eagles.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Eagles" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Mini Femenino
@@ -155,7 +155,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-300 border-b">
                                 <td className="p-4">
-                                    <img src="/Eagles.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Eagles" />
+                                    <img src="/categorias/Eagles.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Eagles" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Mini Masculino
@@ -173,7 +173,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-200 border-b">
                                 <td className="p-4">
-                                    <img src="/Wolves.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Wolves" />
+                                    <img src="/categorias/Wolves.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Wolves" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Infantil Femenino
@@ -191,7 +191,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-300 border-b">
                                 <td className="p-4">
-                                    <img src="/Wolves.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Wolves" />
+                                    <img src="/categorias/Wolves.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Wolves" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Infantil Masculino
@@ -209,7 +209,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-200 border-b">
                                 <td className="p-4">
-                                    <img src="/Bears.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Bears" />
+                                    <img src="/categorias/Bears.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Bears" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Cadete Femenino
@@ -227,7 +227,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-300 border-b">
                                 <td className="p-4">
-                                    <img src="/Bears.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Bears" />
+                                    <img src="/categorias/Bears.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Bears" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Cadete Masculino <span className="text-red-500">preferente</span>
@@ -245,7 +245,7 @@ function c_Temporada() {
 
                             <tr className="bg-gray-200 border-b">
                                 <td className="p-4">
-                                    <img src="/Bears.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Bears" />
+                                    <img src="/categorias/Bears.png" className="w-16 md:w-32 max-w-full max-h-full" alt="Bears" />
                                 </td>
                                 <td className="px-6 py-4 font-semibold text-gray-900 uppercase">
                                     Cadete Masculino <span className="text-red-500">especial</span>
@@ -268,7 +268,7 @@ function c_Temporada() {
 
 
             {/* Sección 6: Texto adicional */}
-            <section className="p-4 bg-gray-300 rounded-lg">
+            <section className="p-4 bg-gray-400 rounded-lg">
                 <p className="text-green-800 px-8">
                     <span className="font-bold underline">Cuota y formas de pago</span><br /><br />
 

@@ -19,3 +19,15 @@
 }
 
 /*Lo de arriba es del c_Temporada*/
+
+/* Formulario de Google (abajo) */
+
+.custom-section {
+    background-color: #2f855a; /* bg-green-800 */
+    border-radius: 0.5rem; /* rounded-lg */
+    padding: 2rem; /* p-8 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura de la sección según tus necesidades */
+}

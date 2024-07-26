@@ -5,12 +5,12 @@ function Cuerpo() {
     const [currentIndex, setCurrentIndex] = useState(0);
     const images = [
         {
-            src: "/Alvaro.JPG",
+            src: "/inicio/Alvaro.JPG",
             alt: "Álvaro Hernandez",
             description: "Imagen de Álvaro"
         },
         {
-            src: "/ClasificacionNac1.JPG",
+            src: "/inicio/ClasificacionNac1.JPG",
             alt: "Clasificación Nacional N1 Masc",
             description: "Clasificación Nacional"
         }
@@ -61,11 +61,11 @@ function Cuerpo() {
                     {/* Slider controls */}
                     <button
                         type="button"
-                        className="absolute top-1/2 left-4 transform -translate-y-1/2 z-30 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group hover:bg-white/50 dark:group-hover:bg-gray-800/60 focus:outline-none"
+                        className="absolute top-1/2 left-4 transform -translate-y-1/2 z-30 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group hover:bg-white/50 focus:outline-none"
                         onClick={handlePrev}
                         data-carousel-prev
                     >
-                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 focus:ring-4 focus:ring-white dark:group-focus:ring-gray-800/70 focus:outline-none">
+                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/10 focus:ring-4 focus:ring-white focus:outline-none">
                             <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 1 1 5l4 4" />
                             </svg>
@@ -74,11 +74,11 @@ function Cuerpo() {
                     </button>
                     <button
                         type="button"
-                        className="absolute top-1/2 right-4 transform -translate-y-1/2 z-30 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group hover:bg-white/50 dark:group-hover:bg-gray-800/60 focus:outline-none"
+                        className="absolute top-1/2 right-4 transform -translate-y-1/2 z-30 flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group hover:bg-white/50 focus:outline-none"
                         onClick={handleNext}
                         data-carousel-next
                     >
-                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 focus:ring-4 focus:ring-white dark:group-focus:ring-gray-800/70 focus:outline-none">
+                        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full group-hover:bg-white/10 focus:ring-4 focus:ring-white focus:outline-none">
                             <svg className="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
                                 <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 9 4-4-4-4" />
                             </svg>
@@ -108,7 +108,7 @@ function Cuerpo() {
                         <div className="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
                             <div className="bg-gray-100 border border-gray-200 rounded-lg shadow h-full flex flex-col">
                                 <a href="#">
-                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/socios.jpg" alt="" />
+                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/noticias/socios.jpg" alt="" />
                                 </a>
                                 <div className="p-5 flex-grow flex flex-col justify-between">
                                     <div>
@@ -132,7 +132,7 @@ function Cuerpo() {
                         <div className="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
                             <div className="bg-gray-100 border border-gray-200 rounded-lg shadow h-full flex flex-col">
                                 <a href="#">
-                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/infantil fem.jpg" alt="" />
+                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/noticias/infantil fem.jpg" alt="" />
                                 </a>
                                 <div className="p-5 flex-grow flex flex-col justify-between">
                                     <div>
@@ -156,7 +156,7 @@ function Cuerpo() {
                         <div className="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
                             <div className="bg-gray-100 border border-gray-200 rounded-lg shadow h-full flex flex-col">
                                 <a href="#">
-                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/desafio3x3.jpg" alt="" />
+                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/noticias/desafio3x3.jpg" alt="" />
                                 </a>
                                 <div className="p-5 flex-grow flex flex-col justify-between">
                                     <div>
@@ -180,7 +180,7 @@ function Cuerpo() {
                         <div className="w-full sm:w-1/2 lg:w-1/4 px-2 mb-4">
                             <div className="bg-gray-100 border border-gray-200 rounded-lg shadow h-full flex flex-col">
                                 <a href="#">
-                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/crocs.jpg" alt="" />
+                                    <img className="rounded-t-lg transition-transform duration-300 transform hover:scale-105" src="/noticias/crocs.jpg" alt="" />
                                 </a>
                                 <div className="p-5 flex-grow flex flex-col justify-between">
                                     <div>
@@ -214,42 +214,42 @@ function Cuerpo() {
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/alinatal.jpg" alt="Imagen 1" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/alinatal.jpg" alt="Imagen 1" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/belcris.png" alt="Imagen 2" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/belcris.png" alt="Imagen 2" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/CN.png" alt="Imagen 3" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/CN.png" alt="Imagen 3" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="dipucordoba.png" alt="Imagen 4" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/dipucordoba.png" alt="Imagen 4" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="DSSmith.png" alt="Imagen 1" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/DSSmith.png" alt="Imagen 1" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="Mafia.png" alt="Imagen 2" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/Mafia.png" alt="Imagen 2" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="Naturdent.jpg" alt="Imagen 3" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/Naturdent.jpg" alt="Imagen 3" />
                             </a>
                         </div>
                         <div className="flex justify-center">
                             <a href="https://example.com">
-                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="SDM.png" alt="Imagen 4" />
+                                <img className="h-auto max-w-full rounded-lg transition-transform duration-300 transform hover:scale-105" src="/patrocinadores/SDM.png" alt="Imagen 4" />
                             </a>
                         </div>
                     </div>
