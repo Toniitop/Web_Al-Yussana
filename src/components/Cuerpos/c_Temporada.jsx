@@ -20,7 +20,7 @@ function c_Temporada() {
                     ¿Te gusta el baloncesto?<br />
                     ¿Quieres entrenar con nosotros y formar parte del Club Baloncesto Al-Yussana?<br />
                     ¡Pues, no lo pienses más!<br />
-                    Aquí tienes el <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHQUqi7TaKLBUoMxoHXdoGWn39oNO8lW_qRkpVuSdEL0iHTA/viewform" className="bg-green-800 text-white rounded-lg px-2 hover:bg-green-300 hover:text-green-800">formulario de inscripción</a><br /><br />
+                    Aquí tienes el <a href="https://docs.google.com/forms/d/e/1FAIpQLSeHQUqi7TaKLBUoMxoHXdoGWn39oNO8lW_qRkpVuSdEL0iHTA/viewform" target='_blank' className="bg-green-800 text-white rounded-lg px-2 hover:bg-green-300 hover:text-green-800">formulario de inscripción</a><br /><br />
                     ¡Queremos que estés en nuestro equipo!<br />
                     Aprende divirtiéndote con auténticos profesionales de la enseñanza.<br /><br />
                     ¡Tráete a tu mejor amigo y diviértete!<br /><br />
@@ -57,7 +57,7 @@ function c_Temporada() {
 
             {/* Sección 4: Botón */}
             <section className="flex items-center justify-center text-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeHQUqi7TaKLBUoMxoHXdoGWn39oNO8lW_qRkpVuSdEL0iHTA/viewform' className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-green-800 rounded-md group">
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSeHQUqi7TaKLBUoMxoHXdoGWn39oNO8lW_qRkpVuSdEL0iHTA/viewform' target='_blank' className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-green-800 rounded-md group">
                     <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-600 rounded group-hover:-mr-4 group-hover:-mt-4">
                         <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-gray-200"></span>
                     </span>

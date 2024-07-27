@@ -30,7 +30,7 @@ function c_Desafio() {
 
             {/* Sección 4: Botón */}
             <section className="flex items-center justify-center text-center">
-                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfQjDwZZ0LoX-TLIsWVstoCPrDKgAvIz-pG-hE4rcmLnGDVSA/closedform' className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-green-800 rounded-md group">
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfQjDwZZ0LoX-TLIsWVstoCPrDKgAvIz-pG-hE4rcmLnGDVSA/closedform' target='_blank' className="relative flex items-center px-6 py-3 overflow-hidden font-medium transition-all bg-green-800 rounded-md group">
                     <span className="absolute top-0 right-0 inline-block w-4 h-4 transition-all duration-500 ease-in-out bg-green-600 rounded group-hover:-mr-4 group-hover:-mt-4">
                         <span className="absolute top-0 right-0 w-5 h-5 rotate-45 translate-x-1/2 -translate-y-1/2 bg-gray-200"></span>
                     </span>

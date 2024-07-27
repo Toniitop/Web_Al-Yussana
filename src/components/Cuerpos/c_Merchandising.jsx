@@ -39,7 +39,7 @@ function c_Merchandising() {
             </section>
 
             <section className="custom-section bg-cover" style={{ backgroundImage: `url(/fondo1.png)` }}>
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfq1AnQt8P4WN0bLr-iGIeIct4NRA1wkoj5O_B7g0Bq0w8rJw/viewform?embedded=true" width="700" height="520">Cargando…</iframe>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfq1AnQt8P4WN0bLr-iGIeIct4NRA1wkoj5O_B7g0Bq0w8rJw/viewform?embedded=true" width="1000" height="800">Cargando…</iframe>
             </section>
 
         </div>
