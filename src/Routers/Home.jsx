@@ -1,6 +1,6 @@
 import './tailwind.css'
 import Navbar from '../components/Navbar';
-import Cuerpo from '../components/Cuerpo';
+import Cuerpo from '../components/Cuerpos/Cuerpo';
 import Footer from '../components/Footer';
 
 function Home () {

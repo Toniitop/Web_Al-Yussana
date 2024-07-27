@@ -1,4 +1,4 @@
-import './tailwind.css';
+import '../tailwind.css';
 import { Helmet } from 'react-helmet';
 
 function c_Temporada() {

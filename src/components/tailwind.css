@@ -10,7 +10,8 @@
     }
 
     .text-xl {
-        font-size: 1rem; /* Ajusta el tamaño del texto en dispositivos móviles */
+        font-size: 1rem;
+        /* Ajusta el tamaño del texto en dispositivos móviles */
     }
 
     .list-disc {
@@ -23,11 +24,90 @@
 /* Formulario de Google (abajo) */
 
 .custom-section {
-    background-color: #2f855a; /* bg-green-800 */
-    border-radius: 0.5rem; /* rounded-lg */
-    padding: 2rem; /* p-8 */
+    background-color: #2f855a;
+    /* bg-green-800 */
+    border-radius: 0.5rem;
+    /* rounded-lg */
+    padding: 2rem;
+    /* p-8 */
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta la altura de la sección según tus necesidades */
+    height: 100vh;
+    /* Ajusta la altura de la sección según tus necesidades */
+}
+
+/* Botón de subir */
+
+/* Asegúrate de que el botón esté oculto por defecto */
+.button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(58, 173, 68);
+    border: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 4px rgba(160, 255, 192, 0.253);
+    cursor: pointer;
+    transition-duration: 0.3s;
+    position: fixed;
+    bottom: 20px;
+    /* Asegúrate de posicionarlo correctamente */
+    right: 20px;
+    /* Asegúrate de posicionarlo correctamente */
+    visibility: hidden;
+    /* Inicialmente oculto */
+    transition: opacity 0.5s ease, visibility 0.5s ease-in;
+}
+
+.button.show {
+    opacity: 1;
+    visibility: visible;
+    /* Muestra el botón */
+}
+
+.svgIcon {
+    width: 12px;
+    /* Ajusta el tamaño del icono */
+    transition-duration: 0.3s;
+}
+
+.svgIcon path {
+    fill: white;
+}
+
+.button:hover {
+    width: 140px;
+    border-radius: 50px;
+    transition-duration: 0.3s;
+    background: linear-gradient(135deg, rgba(42, 159, 60, 1) 0%, rgba(8, 9, 9, 1) 100%);
+    align-items: center;
+}
+
+.button:hover .svgIcon {
+    /* width: 20px; */
+    /* tamaño del icono al pasar el mouse */
+    transition-duration: 0.3s;
+    transform: translateY(-200%);
+}
+
+.button::before {
+    position: absolute;
+    bottom: -20px;
+    /* Ajusta la posición del texto */
+    content: "Hacia arribaaa 🏀";
+    color: white;
+    /* transition-duration: .3s; */
+    font-size: 0px;
+}
+
+.button:hover::before {
+    font-size: 13px;
+    opacity: 1;
+    bottom: unset;
+    /* transform: translateY(-30px); */
+    transition-duration: 0.3s;
 }

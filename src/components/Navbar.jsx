@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './tailwind.css';
 
 function Header() {
     const [isDropdownOpen, setDropdownOpen] = useState(false);
@@ -14,7 +15,7 @@ function Header() {
     };
 
     return (
-        <nav className="bg-neutral-800 border-gray-200">
+        <nav className="bg-neutral-800 border-gray-200 sticky top-0 z-50">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                 <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src="logo.png" className="h-10" alt="Logo_Equipo" />

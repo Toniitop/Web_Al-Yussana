@@ -1,6 +1,6 @@
 import './tailwind.css'
 import Navbar from '../components/Navbar';
-import Cuerpo from '../components/c_Merchandising';
+import Cuerpo from '../components/Cuerpos/c_Merchandising';
 import Footer from '../components/Footer';
 
 function Merchandising () {

@@ -1,6 +1,6 @@
 import './tailwind.css'
 import Navbar from '../components/Navbar';
-import Cuerpo from '../components/c_Contacto';
+import Cuerpo from '../components/Cuerpos/c_Contacto';
 import Footer from '../components/Footer';
 
 function Desafio () {

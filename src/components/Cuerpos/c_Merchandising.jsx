@@ -1,4 +1,4 @@
-import './tailwind.css';
+import '../tailwind.css';
 import { Helmet } from 'react-helmet';
 
 function c_Merchandising() {
@@ -38,7 +38,7 @@ function c_Merchandising() {
                 </div>
             </section>
 
-            <section className="custom-section">
+            <section className="custom-section bg-cover" style={{ backgroundImage: `url(/fondo1.png)` }}>
                 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfq1AnQt8P4WN0bLr-iGIeIct4NRA1wkoj5O_B7g0Bq0w8rJw/viewform?embedded=true" width="700" height="520">Cargando…</iframe>
             </section>
 

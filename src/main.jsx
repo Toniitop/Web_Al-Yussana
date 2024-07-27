@@ -8,6 +8,8 @@ import CT from './Routers/CuerpoTecnico'
 import Merchandising from './Routers/Merchandising'
 import Contacto from './Routers/Contacto'
 import Error404 from './components/Error404'
+import ScrollToTopButton from './components/ScrollToTopButton'
+//import Loader from './components/Loader'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -22,6 +24,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/contacto' element={<Contacto />} />
         <Route path='*' element={<Error404 />} />
       </Routes>
+      <ScrollToTopButton />
     </BrowserRouter>
   </React.StrictMode>,
 )
