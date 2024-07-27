@@ -7,12 +7,12 @@ function Cuerpo() {
         {
             src: "/inicio/Alvaro.JPG",
             alt: "Álvaro Hernandez",
-            description: "Imagen de Álvaro"
+            description: "Álvaro Hernandez"
         },
         {
             src: "/inicio/ClasificacionNac1.JPG",
             alt: "Clasificación Nacional N1 Masc",
-            description: "Clasificación Nacional"
+            description: "Clasificación Nacional N1 Masc"
         }
     ];
 
